@@ -215,7 +215,7 @@ body {
 }
 .header__global-nav {
   display: flex;
-  justify-content: space-between;
+  gap: 44px;
   align-items: center;
   font-family: $font-family;
   font-weight: 500;
