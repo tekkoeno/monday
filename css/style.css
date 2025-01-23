@@ -454,6 +454,7 @@ body {
 }
 
 .name__item-btn {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -746,6 +747,7 @@ body {
 }
 
 .select__acc-type {
+  user-select: none;
   display: flex;
   align-items: center;
   width: 330px;
@@ -764,6 +766,9 @@ body {
   font-size: 14px;
   color: #9ca5b3;
   padding: 0 10px;
+  cursor: pointer;
+}
+.select__acc-type .acc-type {
   cursor: pointer;
 }
 .select__acc-type .acc-type--review svg {
@@ -1208,6 +1213,7 @@ body {
   margin-bottom: 20px;
 }
 .order__type-wrap p {
+  user-select: none;
   font-weight: 700;
   background: #edf4ff;
   font-size: 14px;
